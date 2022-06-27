@@ -1,0 +1,268 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  width: 100%;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.InputMessage {
+  margin: 0 auto;
+  margin-top: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  font-color: white;
+  background-color: #282c34;
+  border: none;
+  text-align: center;
+  width: 80%;
+  border-bottom: 4px solid white;
+  padding-bottom: 10px;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 90px;
+
+}
+
+.InputMessage:focus {
+  border: none;
+  outline: none;
+  color: white;
+  border-bottom: 4px solid white;
+  background-color: #282c34;
+  border: none;
+  border-bottom: 3px solid white;
+  outline: 0 !important;
+  -webkit-appearance:none;
+  box-shadow: none !important;
+}
+
+.History {
+  padding-top: 10px;
+}
+
+.System {
+  color: rgb(29,154,255);
+  font-weight: bold;
+}
+
+.User {
+  color: rgb(36,163,116);
+  font-weight: bold;
+}
+
+.MessageHistory {
+  margin: 0 auto;
+  color: white;
+  font-color: white;
+  width: 80%;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.History {
+  overflow-y: hidden;
+}
+
+.OutputMessage {
+  margin: 0 auto;
+  color: white;
+  font-color: white;
+  width: 80%;
+  margin-bottom: 25px;
+}
+
+.SystemName {
+  color: white;
+  font-size: calc(10px + vmin);
+  font-color: white;
+  margin-bottom: 0px;
+}
+
+body {
+  background-color: #282c34;
+  color: black;
+}
+
+#ConsentModal {
+  color: black;
+}
+
+.AppContainer {
+  background-color: #282c34;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+  overflow-y: hidden;
+}
+
+
+.InstructionHolder {
+  padding-right: 50px;
+}
+
+.DialogHolder {
+  font-size: calc(5px + 4vmin);
+  padding-right: 50px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.Like {
+  width: 5em;
+  vertical-align: 'center';
+  margin: 0 auto;
+  margin-right: 5px;
+  margin-left: 5px;
+  background-color: rgb(36,163,116);
+  border-color: rgb(36,163,116);
+}
+
+.Dislike {
+  width: 5em;
+  vertical-align: 'center';
+  margin: 0 auto;
+  margin-right: 5px;
+  margin-left: 5px;
+  background-color: rgb(194,68,52);
+  border-color:  rgb(194,68,52);
+}
+
+.Like:hover {
+  background-color: rgb(39,179,127);
+  border-color:  rgb(39,179,127);
+}
+
+.Dislike:hover {
+  background-color: rgb(213,75,57);
+  border-color:  rgb(213,75,57);
+}
+
+.Neutral {
+  width: 6em;
+  vertical-align: 'center';
+  margin: 5 auto;
+  margin-right: 5px;
+  margin-left: 5px;
+  background-color: #0066cc;
+  border-color:  #0066cc;
+}
+
+.Wide2 {
+  width: 11em;
+  vertical-align: 'center';
+  margin: 0 auto;
+  margin-right: 5px;
+  margin-left: 5px;
+  background-color: rgb(194,68,52);
+  border-color:  rgb(194,68,52);
+}
+
+.Wide2:hover {
+  background-color: rgb(213,75,57);
+  border-color:  rgb(213,75,57);
+}
+
+.Wide {
+  width: 11em;
+  vertical-align: 'center';
+  margin: 0 auto;
+  margin-right: 5px;
+  margin-left: 5px;
+  background-color: #0066cc;
+  border-color:  #0066cc;
+}
+
+.Neutral:hover {
+  background-color: rgb(29,154,255);
+  border-color:  rgb(29,154,255);
+}
+
+.Button:focus {
+  border: none;
+  outline: 0 !important;
+  -webkit-appearance:none;
+  box-shadow: none !important;
+}
+
+.Buttons {
+  vertical-align: 'center';
+  margin: 0 auto;
+}
+
+#LikedToast {
+  visibility: hidden;
+}
+
+#DislikedToast {
+  visibility: hidden;
+}
+
+#NewToast {
+  visibility: hidden;
+}
+
+.Toast {
+  background-color: rgb(58, 65, 76);
+  font-color: white;
+  border-radius: 15px;
+  width: 15em;
+}
+
+.ToastBody {
+  background-color: rgb(58, 65, 76);
+  font-color: white;
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.Instructions {
+  text-align: left;
+  padding: 50px;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 25px;
+  position: fixed;
+  bottom: 10%;
+  margin-right: 50px;
+}
+
+.Logo {
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 50px;
+}
+
+.feedbackmodal {
+  visibility: "hidden";
+}
+
+.feedbackmodal .modal-backdrop {
+  z-index: -1!important;
+}
+

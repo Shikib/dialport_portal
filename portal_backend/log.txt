@@ -1,0 +1,8 @@
+{"userID":1656360625121,"text":"User sent: SSTTAARRTT","webTimeStamp":"2022-06-27T16-10-25.123","expState":2}
+{"userID":1656360625121,"text":"User consented","webTimeStamp":"2022-06-27T16-10-28.443","expState":2}
+{"userID":1656360625121,"text":"User sent: hey","webTimeStamp":"2022-06-27T16-10-32.308","expState":2}
+{"userID": 1656360625121, "text": "User sent: hey", "webTimeStamp": "2022-06-27T16-10-32.000"}
+{"userID": 1656360625121, "text": "User received: Hey, you.", "webTimeStamp": "2022-06-27T16-10-32.000"}
+{"userID":1656360625121,"text":"User sent: how are you","webTimeStamp":"2022-06-27T16-10-35.494","expState":2}
+{"userID": 1656360625121, "text": "User sent: how are you", "webTimeStamp": "2022-06-27T16-10-36.000"}
+{"userID": 1656360625121, "text": "User received: I'm good, you?", "webTimeStamp": "2022-06-27T16-10-36.000"}

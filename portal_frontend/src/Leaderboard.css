@@ -1,0 +1,16 @@
+body {
+  background-color: #282c34;
+}
+
+.table thead th {
+  border: 1px solid black;
+}
+table, th, td {
+  border: 1px solid black;
+}
+
+#app {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 50px;
+}
