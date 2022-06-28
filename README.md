@@ -79,3 +79,16 @@ All user/system actions will be logged to `dialport_backend/log.txt`. Example lo
 {"userID":1656426384341,"text":"User Disliked","webTimeStamp":"2022-06-28T10-32-00.001","expState":3}
 {"userID":1656426384341,"text":"User correction: Hey, you!","webTimeStamp":"2022-06-28T10-32-04.005","expState":3}
 ```
+
+## Publications
+
+There have been several publications about the DialPort Portal and using the Portal for evaluation:
+
+
+- Zhao, Tiancheng, Kyusong Lee, and Maxine Eskenazi. "Dialport: Connecting the spoken dialog research community to real user data." 2016 IEEE Spoken Language Technology Workshop (SLT). IEEE, 2016.
+- Zhao, Tiancheng, Kyusong Lee, and Maxine Eskenazi. "The dialport portal: Grouping diverse types of spoken dialog systems." Workshop on Chatbots and conversational agents. 2016.
+- Lee, Kyusong, et al. "Dialport, gone live: An update after a year of development." Proceedings of the 18th annual SIGdial meeting on discourse and dialogue. 2017.
+- Gunasekara, Chulaka, et al. "Overview of the ninth dialog system technology challenge: Dstc9." DSTC9 Workshop at AAAI 2021.
+- Li, Zekang, Zongjia Li, Jinchao Zhang, Yang Feng, and Jie Zhou. "WeChat AI's Submission for DSTC9 Interactive Dialogue Evaluation Track." DSTC9 Workshop at AAAI 2021.
+- Bao, Siqi, Bingjin Chen, Huang He, Xin Tian, Han Zhou, Fan Wang, Hua Wu, Haifeng Wang, Wenquan Wu, and Yingzhan Lin. "A Unified Pre-training Framework for Conversational AI." DSTC9 Workshop at AAAI 2021.
+- Mehri, Shikib, Yulan Feng, Carla Gordon, Seyed Hossen Alavi, David Traum and Maxine Eskenazi. "Interactive Evaluation of Dialog Track at DSTC9." LREC 2022.
