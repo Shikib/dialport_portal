@@ -1,1 +1,1 @@
-http://shikib.sp.cs.cmu.edu:8890/
+http://schema.lti.cs.cmu.edu:8890/
